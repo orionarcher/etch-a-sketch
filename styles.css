@@ -1,0 +1,31 @@
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#grid-container {
+    align-self: center;
+    border-style: solid;
+    border-color: paleturquoise;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: lightblue;
+}
+
+.etch-box{
+    border-style: solid;
+    border-color: rgb(170, 223, 223);
+    border-width: 1px;
+}
+
+.hovered {
+    border-style: solid;
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+}
